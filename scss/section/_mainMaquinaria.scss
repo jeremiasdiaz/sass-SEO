@@ -1,0 +1,59 @@
+.main {
+  background-color: rgba(112, 91, 63, 0.572);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.tituloMaquinaria {
+  font-size: 35px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.contain-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 120px;
+}
+
+.nombreAthina {
+  font-size: 15px;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.imgAthina {
+  display: flex;
+  width: 70%;
+  padding: 20px;
+}
+
+.parrafos-1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 23px;
+  color: #383838;
+  font-weight: 400;
+  padding: 0 30px;
+}
+
+.marcaAthina {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.nombreMarzocco {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.imgMarzocco {
+  padding: 20px;
+  width: 50%;
+}
+
+.marcaMarzocco {
+  font-size: 30px;
+  font-weight: bold;
+}
