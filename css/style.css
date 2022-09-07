@@ -3,6 +3,29 @@
   padding: 0;
   box-sizing: border-box; }
 
+/* HEADER */
+.navbar {
+  display: flex;
+  flex-wrap: nowrap;
+  box-shadow: #000; }
+
+.nav-barista li {
+  color: #c7bead !important;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0.5em 1.2em;
+  background: rgba(0, 0, 0, 0.012);
+  border: 2px solid;
+  transition: all 1s ease;
+  position: relative; }
+
+.nav-barista li:hover {
+  background: #a09173;
+  color: #a5946e !important; }
+
+.color-header {
+  background-color: #c7bead; }
+
 .main-index {
   background-image: url(./img/fondoIndex.png);
   background-repeat: no-repeat;
@@ -13,3 +36,9 @@
   font-style: italic;
   font-size: 20px;
   font-weight: 500; }
+
+/* FOOTER */
+.footer {
+  border-top: 2px #bc9454;
+  display: flex;
+  background-color: hwb(38 62% 16%); }
