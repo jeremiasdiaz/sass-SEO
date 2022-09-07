@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import "./section/header";
+@import "./section/mainIndex";
+@import "./section/mainTipoDeCafe";
+@import "./section/mainPreparaciones";
+@import "./section/mainMaquinaria";
+@import "./section/mainContacto";
+@import "./section/footer";
